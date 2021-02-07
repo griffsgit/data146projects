@@ -6,8 +6,11 @@
 
 2. The largest population was 1,318,683,096. This occured in China in 2007
 > new_object_with_max_pop = data['pop'].max()
+
 > print(new_object_with_max_pop)
+
 > new_object_with_idxmax_pop = data['pop'].idxmax()
+
 > print(data.loc[new_object_with_idxmax_pop])
 
 3.
