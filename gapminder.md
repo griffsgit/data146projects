@@ -14,5 +14,31 @@
 
 > print(data.loc[new_object_with_idxmax_pop])
 
-3.
+3. The country in Europe with the lowest population in 1957 was Iceland, at 165,110. In 2007 the population was 301,931.
 
+> cont = 'Europe'
+
+> idxCont = data['continent']==cont
+
+> temp = data[idxCont]
+
+> year = 1957
+
+> idxYear = temp['year']==year
+
+> data_final = temp[idxYear]
+
+> idx_min = data_final['pop'].idxmin()
+
+>print(data_final.loc[idx_min])
+
+> year = 2007
+
+> idxYear = temp['year']==year
+
+> data_final = temp[idxYear]
+
+> place = data_final['country'] =='Iceland'
+
+
+> print(data_final[place])
