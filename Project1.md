@@ -2,10 +2,10 @@
 1. Describe what is a package? Also, describe what is a library? What are the two steps you need to execute in order to install a package and then make that library of functions accessible to your workspace and current python work session? Provide examples of how you would execute these two steps using two of the packages we have used in class thus far. Be sure to include an alias in at least one of your two examples and explain why it is a good idea to do so.
 
 A package is a directory of modules. Modules are just python files with specific functions or code. A library is collection of related functions for use in other programs, to be called and referred to at various times. The two steps you need to execute are to first install a package. You can do this in Pycharm by going to ‘file>settings>python interpreter’ then selecting and adding a specific package. Then, the next step in order to then make these packages accessible in your current work session is importing them. To import packages, you have to write out the command to do so. The way I would do this is seen below in two examples:
-{
-Import datetime
-import pandas as pd
-}
+
+>import datetime
+>import pandas as pd
+
 I included an alias, “pd”, for pandas because repeatedly referring to pandas as “pd” is much shorter and more convenient than having to use the full name when referencing it each time. 
 
 
