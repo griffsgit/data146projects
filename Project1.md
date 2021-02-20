@@ -31,8 +31,36 @@ An example that describes a data frame I created is:
 Import pandas as pd
 data_path = 'C:/Users/griff/PycharmProjects/pythonProject/gapminder.tsv'
 readstuff = pd.read_csv(data_path, sep=’\t’)
+print(readstuff.head())
 ```
 To describe the data, you can use readstuff.describe(), or readstuff.head().
+
+Doing .head() returned this for me:
+
+```
+country continent  year  lifeExp       pop   gdpPercap
+0  Afghanistan      Asia  1952   28.801   8425333  779.445314
+1  Afghanistan      Asia  1957   30.332   9240934  820.853030
+2  Afghanistan      Asia  1962   31.997  10267083  853.100710
+3  Afghanistan      Asia  1967   34.020  11537966  836.197138
+4  Afghanistan      Asia  1972   36.088  13079460  739.981106
+```
+
+and doing .describe() did this for me:
+
+```
+  year      lifeExp           pop      gdpPercap
+count  1704.00000  1704.000000  1.704000e+03    1704.000000
+mean   1979.50000    59.474439  2.960121e+07    7215.327081
+std      17.26533    12.917107  1.061579e+08    9857.454543
+min    1952.00000    23.599000  6.001100e+04     241.165876
+25%    1965.75000    48.198000  2.793664e+06    1202.060309
+50%    1979.50000    60.712500  7.023596e+06    3531.846988
+75%    1993.25000    70.845500  1.958522e+07    9325.462346
+max    2007.00000    82.603000  1.318683e+09  113523.132900
+```
+
+
 
 In order to determine how many rows and columns are in a dataframe, you can use  readstuff.shape() in order to get the number of rows and columns. This returns the number of rows and columns in a dataframe, in parentheses separated by a comma.
 
