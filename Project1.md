@@ -141,7 +141,7 @@ I think the reason Rwanda had the lowest life expectancy in 1992 of anywhere was
 
 
 
-**6. You have been introduced to four logical operators thus far: &, ==, | and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.**
+**6. You have been introduced to four logical operators thus far: &, ==, <code>&#124;</code> and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.**
 
 
 & : This is the bitwise ‘and’ operator. This is used to verify that both conditions are true, and will return a true if so. A use of this is in trying to get data in which you want to different conditions to both be met. An example is:
@@ -161,7 +161,7 @@ idxCont = data['continent']==cont
 
 This only gets data when the continent is equal to Europe
 
- | : This is a bitwise ‘or’ operator. It can be used to check whether one or both of two conditions are true, and if at least one is, it will return true. An example of it being used is: 
+<code>&#124;</code>: This is a bitwise ‘or’ operator. It can be used to check whether one or both of two conditions are true, and if at least one is, it will return true. An example of it being used is: 
 
 ```
 Specific_thing= data[(data[‘country’]==’United States’)|(data[‘year’]==2007)]
