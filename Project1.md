@@ -116,7 +116,7 @@ I think the reason Rwanda had the lowest life expectancy in 1992 of anywhere was
 **6. You have been introduced to four logical operators thus far: &, ==, | and ^. Describe each one including its purpose and function. Provide an example of how each might be used in the context of programming.**
 
 
-& : This is the bitwise ‘and’ operator. This is used to verify that both conditions are true, and will return a true if so. A use of this is in ‘if statements’, which would only be executed if both conditions are met. An example is:
+& : This is the bitwise ‘and’ operator. This is used to verify that both conditions are true, and will return a true if so. A use of this is in trying to get data in which you want to different conditions to both be met. An example is:
 
 ```
 Specific_thing= data[(data[‘year’]==2007) & (data[‘country’]==’United States’)]
