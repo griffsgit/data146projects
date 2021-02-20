@@ -62,7 +62,19 @@ max    2007.00000    82.603000  1.318683e+09  113523.132900
 
 
 
-In order to determine how many rows and columns are in a dataframe, you can use  readstuff.shape() in order to get the number of rows and columns. This returns the number of rows and columns in a dataframe, in parentheses separated by a comma.
+In order to determine how many rows and columns are in a dataframe, you can use  readstuff.shape in order to get the number of rows and columns. This returns the number of rows and columns in a dataframe, in parentheses separated by a comma.
+
+When I ran
+
+```
+print(readstuff.shape)
+```
+
+What I got in return was:
+
+```
+(1704, 6)
+```
 
 An alternate terminology for describing rows and columns would be “variables” for rows, and “observations” for columns.
 
