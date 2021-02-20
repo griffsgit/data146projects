@@ -4,4 +4,4 @@
 1. [Gapminder](gapminder.md)
 
 # Projects
-1. [Project 1](project1.md)
+1. [Project 1](Project1.md)
