@@ -3,8 +3,10 @@
 
 A package is a directory of modules. Modules are just python files with specific functions or code. A library is collection of related functions for use in other programs, to be called and referred to at various times. The two steps you need to execute are to first install a package. You can do this in Pycharm by going to ‘file>settings>python interpreter’ then selecting and adding a specific package. Then, the next step in order to then make these packages accessible in your current work session is importing them. To import packages, you have to write out the command to do so. The way I would do this is seen below in two examples:
 
->import datetime
->import pandas as pd
+```
+import datetime
+import pandas as pd
+```
 
 I included an alias, “pd”, for pandas because repeatedly referring to pandas as “pd” is much shorter and more convenient than having to use the full name when referencing it each time. 
 
