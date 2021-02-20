@@ -56,6 +56,8 @@ print(years)
 ```
 
 In return, I got:
+
+```
 0       1952
 1       1957
 2       1962
@@ -67,7 +69,7 @@ In return, I got:
 1701    1997
 1702    2002
 1703    2007
-
+```
 
 It appears that the years are recorded in intervals of 5.
 
@@ -86,7 +88,7 @@ print(data.loc[new_object_with_idxmin_lifeexp])
 ```
 
 What I got in return was:
-
+```
 country          Rwanda
 continent        Africa
 year               1992
@@ -94,7 +96,7 @@ lifeExp          23.599
 pop             7290203
 gdpPercap    737.068595
 Name: 1292, dtype: object
-
+```
 
 I think the reason Rwanda had the lowest life expectancy in 1992 of anywhere was because of the ongoing Rwandan Civil War. Looking at this period in Rwanda in the early 1990s, it appears they had a problem with internal conflict, which would likely contribute to a life expectancy by creating dangerous and destabilized living conditions. Only two years later, there would be the Rwandan Genocide.
 
