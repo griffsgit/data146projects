@@ -10,6 +10,9 @@ A model you could use is a competition on rowing machines where each contender r
  
 Picture one: 
 
+![title](graph1.png)
+
+
 Mean: 0.5004439651051051
 Median: 0.5080035994393222
  
