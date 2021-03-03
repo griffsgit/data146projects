@@ -1,4 +1,4 @@
-**Part 1:
+**Part 1:**
 
 Continuous data is a type of numerical data type that can take any value within a range of numbers. For example, height and weight are each continuous data, as someone’s height or weight can be any value!
 Ordinal data is a qualitative type of data, where the rank is what matters. One example of this is the results of a boat race, and a ranking of the different contenders based on time taken to complete.
@@ -6,7 +6,7 @@ Nominal data is data that does not have a specific value, but rather fits into a
 
 A model you could use is a competition on rowing machines where each contender rows 2 kilometers. Nominal data would be whether each contestant is male or female. Continuous data would be the time each person takes to row this length. Ordinal would be the rank of each person based on time.
 
-**Part 2:
+**Part 2:**
  
 Picture one: 
 
@@ -26,7 +26,7 @@ Median: 0.02901661806972513
  
  
  
-**Part 3:
+**Part 3:**
 
 Raw data: 
 
@@ -37,7 +37,7 @@ After applying logarithmic transformation:
  
 The plot after logarithmic transformation best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. Logarithmic transformations shrink values while retaining proportional share towards the overall metric, which helps to make the pattern more visible.
  
-**Part 4:
+**Part 4:**
 
 Plot of populations: 
 
