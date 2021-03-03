@@ -10,7 +10,7 @@ A model you could use is a competition on rowing machines where each contender r
  
 Picture one: 
 
-![title](Graph1.jpg)
+![title](Graph1.PNG)
 
 
 Mean: 0.5004439651051051
