@@ -19,11 +19,16 @@ Median: 0.5080035994393222
  
 Skewed left: 
 
+![title](Plot2.PNG)
+
+
 Mean: 0.844825789919166
 
 Median: 0.9687519963128917
  
 Skewed right: 
+
+![title](Plot3.PNG)
 
  
 Mean: 0.16748189662976135
@@ -36,9 +41,11 @@ Median: 0.02901661806972513
 
 Raw data: 
 
- 
+ ![title](correctpart3raw.PNG)
+
 After applying logarithmic transformation: 
  
+ ![title](correctpart3log.PNG)
 
  
 The plot after logarithmic transformation best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. Logarithmic transformations shrink values while retaining proportional share towards the overall metric, which helps to make the pattern more visible.
@@ -47,9 +54,11 @@ The plot after logarithmic transformation best shows the change in life expectan
 
 Plot of populations: 
 
-
+ ![title](Populationboxnwhiskers.PNG)
 
 Logarithmic Transformation: 
+
+ ![title](logarithmicone.PNG)
 
 
 The one that best communicates the change in population amongst all of these countries from 1952 to 2007 is the logarithmic transformation. This is because it makes the data much clearer. With the raw data, it is much harder to see the quartiles, and everything but the largest outliers are incredibly hard to distinguish between. With the logarithmic transformation, the data is more spread out.
