@@ -10,21 +10,24 @@ A model you could use is a competition on rowing machines where each contender r
  
 Picture one: 
 
-![title](Graph1.png)
+![title](images_folder/Graph1.png)
 
 
 Mean: 0.5004439651051051
+
 Median: 0.5080035994393222
  
 Skewed left: 
 
 Mean: 0.844825789919166
+
 Median: 0.9687519963128917
  
 Skewed right: 
 
  
 Mean: 0.16748189662976135
+
 Median: 0.02901661806972513
  
  
