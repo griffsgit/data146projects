@@ -48,7 +48,7 @@ After applying logarithmic transformation:
  ![title](correctpart3log.PNG)
 
  
-The raw data plot best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. A logarithmic transmation is useful when there are huge differences in the scales of data, but that is not the case here, and I think it is much harder for people to interpret the meaning of life expectency data when it is logarithmic.
+The raw data plot best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. A logarithmic transformation is useful when there are huge differences in the scales of data, but that is not the case here, and I think it is much harder for people to interpret the meaning of life expectency data when it is logarithmic.
  
 **Part 4:**
 
