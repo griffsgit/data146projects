@@ -48,7 +48,7 @@ After applying logarithmic transformation:
  ![title](correctpart3log.PNG)
 
  
-The plot after logarithmic transformation best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. Logarithmic transformations shrink values while retaining proportional share towards the overall metric, which helps to make the pattern more visible.
+The raw data plot best shows the change in life expectancy from 1952 to 2007. This is because it helps show the trend more clearly. A logarithmic transmation is useful when there are huge differences in the scales of data, but that is not the case here, and I think it is much harder for people to interpret the meaning of life expectency data when it is logarithmic.
  
 **Part 4:**
 
@@ -61,4 +61,4 @@ Logarithmic Transformation:
  ![title](logarithmicone.PNG)
 
 
-The one that best communicates the change in population amongst all of these countries from 1952 to 2007 is the plot using the raw data. While it is easier to see the quartiles in the logarithmic data, and the box and whiskers plots are less cramped together, it is harder to visualize the overall trend that has taken place. This is because it makes plots look relatively the same over time, whereas the raw data highlights the increase in population. The raw data also has all of the outliers, which the logarithmic data does not.
+The one that best communicates the change in population amongst all of these countries from 1952 to 2007 is the logarithmic transformation. This is because it makes the data much clearer. With the raw data, it is much harder to see the quartiles, and everything but the largest outliers are incredibly hard to distinguish between. With the logarithmic transformation, the data is more spread out.
