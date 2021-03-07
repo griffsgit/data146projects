@@ -61,4 +61,4 @@ Logarithmic Transformation:
  ![title](logarithmicone.PNG)
 
 
-The one that best communicates the change in population amongst all of these countries from 1952 to 2007 is the logarithmic transformation. This is because it makes the data much clearer. With the raw data, it is much harder to see the quartiles, and everything but the largest outliers are incredibly hard to distinguish between. With the logarithmic transformation, the data is more spread out.
+The one that best communicates the change in population amongst all of these countries from 1952 to 2007 is the logarithmic transformation. This is because it makes the data much clearer. With the raw data, it is much harder to see the quartiles, and everything but the largest outliers are incredibly hard to distinguish between. This is because there are such big ranges in the data, and only the outliers are really clear because they are so big. With the logarithmic transformation, the data is more spread out.
