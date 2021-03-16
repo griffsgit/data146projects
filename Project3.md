@@ -5,7 +5,9 @@ I produced a training score of 0.019, and a testing score of -0.014. To get this
 **Now standardize your features (again beds, baths and area) prior to training and testing with a linear regression model (also again with asking price as your target). Now how did your model perform? What were the training and testing scores you produced? How many folds did you assign when partitioning your training and testing data? Interpret and assess your output.**
 
 After standardization, my training score was 0.019, and my testing score was -0.026. This model still performed quite poorly. I assigned 10 folds. 
-Then train your dataset with the asking price as your target using a ridge regression model. Now how did your model perform? What were the training and testing scores you produced? Did you standardize the data? Interpret and assess your output.
+
+**Then train your dataset with the asking price as your target using a ridge regression model. Now how did your model perform? What were the training and testing scores you produced? Did you standardize the data? Interpret and assess your output.**
+
 After doing so, the training score I got was 0.019, and the testing score was 0.011. The model still performed quite poorly. I used 10 folds, and I standardized the data.
  
 **Next, go back, train and test each of the three previous model types/specifications, but this time use the dataset charleston_act.csv (actual sale prices). How did each of these three models perform after using the dataset that replaced asking price with the actual sale price? What were the training and testing scores you produced? Interpret and assess your output.**
