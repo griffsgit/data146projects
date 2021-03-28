@@ -2,6 +2,7 @@
 
 # Informal exercises
 1. [Gapminder](gapminder.md)
+2. [Midterm Corrections](midterm.md)
 
 # Projects
 1. [Project 1](Project1.md)
