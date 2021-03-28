@@ -55,7 +55,7 @@ print(np.corrcoef(X_scaled_df['Longitude'], test.target))
 
 **17. The answer is 0.47. Originally, I got 0.42. This was because I figured that I could use the specific sklearn command “coef_”, and simply specify that I only wanted median income, or lin_reg.coef_[0]. I did this because the note on the test said it could be done in one line. Now, I realize that I went about this the wrong way. This is because I didn’t use the numpy command corrcoef(), nor did I specify the specific feature I wanted by name, but just tried to use its index. Additionally, I forgot to square the value, and set the specific rounding I desired. The difference between my original answer and the new one is due to these differences.**
 
-18. The answer for this was **, which I got. I did this by setting up a function called DoKFold(model, X, y, k, standardize=False, random_state=146), then calling it as: 
+18. The answer for this was 0.60198, which I got. I did this by setting up a function called DoKFold(model, X, y, k, standardize=False, random_state=146), then calling it as: 
 
 ```
 train_scores, test_scores = DoKFold(lin_reg,X1,y1,20,True)
@@ -63,8 +63,54 @@ train_scores, test_scores = DoKFold(lin_reg,X1,y1,20,True)
 
 The default random state was 146, but I set k to 20, and shuffle to true.
 
-19. The answer for this was **, which I got. I did this by **.
-20. The answer for this was **, which I got. I did this by **.
+19. The answer for this was 0.60201, which I got. I did this by making a Ridge Regression with the specified values.
+
+```
+from sklearn.linear_model import Ridge
+
+a_range = np.linspace(20, 30, 101)
+
+k = 20
+
+avg_tr_score=[]
+avg_te_score=[]
+
+for a in a_range:
+    rid_reg = Ridge(alpha=a)
+    train_scores,test_scores = DoKFold(rid_reg,X,y,k,standardize=True)
+    avg_tr_score.append(np.mean(train_scores))
+    avg_te_score.append(np.mean(test_scores))
+
+idx = np.argmax(avg_te_score)
+print('Optimal alpha value: ' + format(a_range[idx], '.3f'))
+print('Training score for this value: ' + format(avg_tr_score[idx],'.3f'))
+print('Testing score for this value: ' + format(avg_te_score[idx], '.3f'))
+```
+
+20. The answer for this was 0.60213, which I got. I did this by simply changing the variables to the desired ones, and changing Ridge to Lasso.
+
+```
+from sklearn.linear_model import Lasso
+
+a_range = np.linspace(0.001, 0.003, 101)
+
+k = 20
+
+avg_tr_score=[]
+avg_te_score=[]
+
+for a in a_range:
+    las_reg = Lasso(alpha=a)
+    train_scores,test_scores = DoKFold(las_reg,X,y,k,standardize=True)
+    avg_tr_score.append(np.mean(train_scores))
+    avg_te_score.append(np.mean(test_scores))
+
+idx = np.argmax(avg_te_score)
+print('Optimal alpha value: ' + format(a_range[idx], '.3f'))
+print('Training score for this value: ' + format(avg_tr_score[idx],'.3f'))
+print('Testing score for this value: ' + format(avg_te_score[idx], '.3f'))
+```
+
 21 and 22:
 
 For these two questions, I refit a linear, Ridge, and Lasso regression to the entire dataset. I then plotted the results of each in-terms of coefficient for each variable (compared to the target). From here, I looked at each plot, and manually compared the variable that was least correlated for question 21 (by looking at my earlier work for question 15), and did the same for question 22 using the variable that was most correlated (again from my earlier work in question 15). I used the following code:
