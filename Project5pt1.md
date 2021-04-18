@@ -3,13 +3,17 @@ Initially, I imported the data, and used wealthC as the target. Later in this pr
 Perform a linear regression and compute the R-Squared Value. Standardize the features and again compute the R-Squared Value. Compare the coefficients from each of the two models and describe how they have changed.
 ## WealthC:
 **Linear Regression:**
+
 MSE: 0.44281007841525305
+
 MSE after standardization: 0.4428116358330327
  
 R-Squared training: 0.7358358668648066
+
 R-Squared testing:  0.7350977596556885
  
 R-Squared training after standardization: 0.7358175988130666
+
 R-Squared testing after standardization: 0.7350931051770687
  
 The way the r-squared values changed before and after standardization is incredibly small. There is practically no significant change in value, and it has an incredibly minimal effect. The only noticeable difference is that the R-squared values for training and testing very slightly decrease after standardization.
@@ -51,30 +55,43 @@ After Standardization:
  
 **Ridge Regression:**
 	Here, I ran a ridge regression using a range of 74 to 76
+	
 Optimal alpha: 75.15789473684211
+
 Training R-squared score: 0.7358359935087796
+
 Testing R-squared score: 0.7351716161978512
+
 While it offers an incredibly slight increase in R-squared values, the ridge regression is very similar to the previous R-squared values we have found.
  
 **Lasso Regression:**
 	Here, I ran a ridge regression using a range of 0.00025 to 0.0003
+	
 Optimal alpha: 0.0002763157894736842
+
 Training R-squared score: 0.7358331609945438
+
 Testing R-squared score: 0.7351816585744342
+
 Here, I again got R-squared values that very closely matched my past findings. That being said, these values are very slightly less than those that I found for my ridge regression.
  
 ## WealthI:
 **Linear Regression:**
  
 R-Squared training: 0.82583686585401
+
 R-Squared testing: 0.825228216491869
  
 R-Squared training after standardization: 0.8258275657271813
+
 R-Squared testing after standardization: 0.8252730034174747
  
 I was not able to get the MSE for WealthI, and as a result have not included it. It was much too high when I calculated it, and I could not figure out how to fix this error. In class, however, the Professor announced that this was okay.
+
 The way that the r-squared values changed respectively to those for wealthI is substantial, and they are a significant increase.  Comparing the R-squared values before versus those after standardization yields an incredibly small difference.
+
 Again, the individual correlations changed greatly as a result of standardization. 
+
 Before standardization:
 [ 2.31986195e+03  1.08192000e+03 -5.08892487e+01  6.53283809e+03
   3.17688859e+03  4.03623951e+03 -9.96051610e+03  1.12302854e+04
@@ -111,16 +128,24 @@ After standardization:
  
 **Ridge Regression:**
 Here, I ran a ridge regression using a range of 85 to 95
+
 Optimal alpha: 89.73684210526315
+
 Training R-squared score: 0.8258370223066807
+
 Testing R-squared score: 0.8252759985555489
+
 The ridge regression produced a small increase in r-squared values compared to the values for the Linear regression.
 
 **Lasso Regression:**
 Here, I ran a ridge regression using a range of 0.85 to 1.25
+
 Optimal alpha: 1.1026315789473684
+
 Training R-squared score: 0.8258373086089591
+
 Testing R-squared score: 0.8253215556264802
+
 The lasso regression created r-squared values that were slightly larger than those for the ridge regression and linear regression, but notably so.
  
 ## Which of the models produced the best results in predicting wealth of all persons throughout the smaller West African country being described? Support your results with plots, graphs and descriptions of your code and its implementation. You are welcome to incorporate snippets to illustrate an important step, but please do not paste verbose amounts of code within your project report. Alternatively, you are welcome to provide a link in your references at the end of your (part 1) Project 5 report.
