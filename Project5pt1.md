@@ -92,7 +92,7 @@ Before standardization:
   1.51485651e+03  5.89549456e+04  2.36376276e+04  9.41611219e+03
  -6.81569745e+04 -2.53665673e+04 -2.24372689e+04  2.24372689e+04]
  
-	After standardization:
+After standardization:
 [ 8.64356381e+03  5.42291563e+02 -9.95378291e+02  5.39229166e+03
   1.15179252e+15  1.35388632e+15  1.20220915e+15  1.23684778e+15
   1.32140360e+15  1.23447592e+15  1.23209826e+15  1.37002573e+15
@@ -133,11 +133,13 @@ This being said, each of the three models for ‘wealthI’ were very similar to
 
 Ridge regression for Wealth C:
 [Ridge Regression 1]
+
 Ridge regression for Wealth I:
 [Ridge Regression 2]
  
 Lasso Regression for Wealth C:
 [Lasso Regression 1]
+
 Lasso Regression for Wealth I:
 [Lasso Regression 2]
 
