@@ -31,6 +31,7 @@ Before standardization:
  -3.26132080e-01  3.26132080e-01 -6.44297719e-02  6.44297719e-02
  -2.76390443e-01  4.32693258e-01  6.03439291e-02  4.07576086e-01
  -6.37787977e-01  1.35651470e-02 -2.47897601e-01  2.47897601e-01]
+ 
 After Standardization:
 [ 1.12516818e-01  5.45138603e-03 -1.09052190e-02  6.91757622e-02
   4.27705195e+10  5.02750453e+10  4.46426842e+10  4.59289510e+10
@@ -91,6 +92,7 @@ Before standardization:
  -3.46563978e+04  3.46563978e+04 -3.20570735e+04  3.20570735e+04
   1.51485651e+03  5.89549456e+04  2.36376276e+04  9.41611219e+03
  -6.81569745e+04 -2.53665673e+04 -2.24372689e+04  2.24372689e+04]
+ 
 	After standardization:
 [ 8.64356381e+03  5.42291563e+02 -9.95378291e+02  5.39229166e+03
   1.15179252e+15  1.35388632e+15  1.20220915e+15  1.23684778e+15
@@ -123,9 +125,13 @@ Testing R-squared score: 0.8253215556264802
 The lasso regression created r-squared values that were slightly larger than those for the ridge regression and linear regression, but notably so.
  
 ## Which of the models produced the best results in predicting wealth of all persons throughout the smaller West African country being described? Support your results with plots, graphs and descriptions of your code and its implementation. You are welcome to incorporate snippets to illustrate an important step, but please do not paste verbose amounts of code within your project report. Alternatively, you are welcome to provide a link in your references at the end of your (part 1) Project 5 report.
+
 Overall, all of the regressions utilizing ‘wealthI’ were better at predicting wealth than any of those utilizing ‘wealthC’. This is because all of the ‘wealthI’ models possessed notably higher r-squared values than any of the ‘wealthC’ models.
+
 When it comes to deciding which model to use from ‘wealthI’, the lasso regression is the best. This is because, at its optimal alpha value of 1.1026315789473684, it is has an r-squared testing value of 0.8253215556264802, whereas the ridge regression’s highest r-squared testing value is 0.8252759985555489. This can be seen in the plot for wealthI’s lasso regression, where there is a point that surpasses .82530 on the plot, whereas the points for the plot of the ridge regression model never do the same.
+
 This being said, each of the three models for ‘wealthI’ were very similar to each of the other two models in terms of r-squared value, and the same goes for those of ‘wealthC’. So while the lasso regression model from ‘wealthI’ is the best predictor at determining wealth, it is only the best by a very small amount when compared to the other models of ‘wealthI’.
+
 Ridge regression for Wealth C:
 [Ridge Regression 1]
 Ridge regression for Wealth I:
