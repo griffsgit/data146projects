@@ -54,7 +54,8 @@ After Standardization:
  -2.09670077e+11 -3.05541141e+10 -3.51666090e+10 -3.51666090e+10]
  
 **Ridge Regression:**
-	Here, I ran a ridge regression using a range of 74 to 76
+
+Here, I ran a ridge regression using a range of 74 to 76
 	
 Optimal alpha: 75.15789473684211
 
@@ -65,7 +66,8 @@ Testing R-squared score: 0.7351716161978512
 While it offers an incredibly slight increase in R-squared values, the ridge regression is very similar to the previous R-squared values we have found.
  
 **Lasso Regression:**
-	Here, I ran a ridge regression using a range of 0.00025 to 0.0003
+
+Here, I ran a ridge regression using a range of 0.00025 to 0.0003
 	
 Optimal alpha: 0.0002763157894736842
 
@@ -127,6 +129,7 @@ After standardization:
  -5.64632904e+15 -8.22809740e+14 -9.47022335e+14 -9.47022335e+14]
  
 **Ridge Regression:**
+
 Here, I ran a ridge regression using a range of 85 to 95
 
 Optimal alpha: 89.73684210526315
@@ -138,6 +141,7 @@ Testing R-squared score: 0.8252759985555489
 The ridge regression produced a small increase in r-squared values compared to the values for the Linear regression.
 
 **Lasso Regression:**
+
 Here, I ran a ridge regression using a range of 0.85 to 1.25
 
 Optimal alpha: 1.1026315789473684
