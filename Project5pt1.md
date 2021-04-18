@@ -157,15 +157,15 @@ When it comes to deciding which model to use from ‘wealthI’, the lasso regre
 This being said, each of the three models for ‘wealthI’ were very similar to each of the other two models in terms of r-squared value, and the same goes for those of ‘wealthC’. So while the lasso regression model from ‘wealthI’ is the best predictor at determining wealth, it is only the best by a very small amount when compared to the other models of ‘wealthI’.
 
 Ridge regression for Wealth C:
-[Ridge Regression 1]
+![alt text](RidgeRegressionforwealthC.png)
 
 Ridge regression for Wealth I:
-[Ridge Regression 2]
+![alt text](RidgeRegressionforwealthI.png)
  
 Lasso Regression for Wealth C:
-[Lasso Regression 1]
+![alt text](LassoRegressionforwealthC.png)
 
 Lasso Regression for Wealth I:
-[Lasso Regression 2]
+![alt text](LassoRegressionforwealthI.png)
 
 
