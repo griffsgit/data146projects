@@ -63,7 +63,6 @@ Training R-squared score: 0.7358331609945438
 Testing R-squared score: 0.7351816585744342
 Here, I again got R-squared values that very closely matched my past findings. That being said, these values are very slightly less than those that I found for my ridge regression.
  
-Repeat the previous steps using the variable wealthI as your target.
 ## WealthI:
 **Linear Regression:**
  
