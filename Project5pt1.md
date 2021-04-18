@@ -8,14 +8,17 @@ MSE: 0.44281007841525305
 
 MSE after standardization: 0.4428116358330327
  
+
 R-Squared training: 0.7358358668648066
 
 R-Squared testing:  0.7350977596556885
  
+
 R-Squared training after standardization: 0.7358175988130666
 
 R-Squared testing after standardization: 0.7350931051770687
- 
+
+
 The way the r-squared values changed before and after standardization is incredibly small. There is practically no significant change in value, and it has an incredibly minimal effect. The only noticeable difference is that the R-squared values for training and testing very slightly decrease after standardization.
 On the other hand, the coefficients greatly differed as a result of standardization. Practically all of these values changed, suggesting it strongly affected many different individual correlation rates. As a whole, these correlations seem to also vary less in range than they did before.
  
@@ -75,6 +78,8 @@ Training R-squared score: 0.7358331609945438
 
 Testing R-squared score: 0.7351816585744342
 
+
+
 Here, I again got R-squared values that very closely matched my past findings. That being said, these values are very slightly less than those that I found for my ridge regression.
  
 ## WealthI:
@@ -84,10 +89,12 @@ R-Squared training: 0.82583686585401
 
 R-Squared testing: 0.825228216491869
  
+
 R-Squared training after standardization: 0.8258275657271813
 
 R-Squared testing after standardization: 0.8252730034174747
  
+
 I was not able to get the MSE for WealthI, and as a result have not included it. It was much too high when I calculated it, and I could not figure out how to fix this error. In class, however, the Professor announced that this was okay.
 
 The way that the r-squared values changed respectively to those for wealthI is substantial, and they are a significant increase.  Comparing the R-squared values before versus those after standardization yields an incredibly small difference.
@@ -132,11 +139,13 @@ After standardization:
 
 Here, I ran a ridge regression using a range of 85 to 95
 
+
 Optimal alpha: 89.73684210526315
 
 Training R-squared score: 0.8258370223066807
 
 Testing R-squared score: 0.8252759985555489
+
 
 The ridge regression produced a small increase in r-squared values compared to the values for the Linear regression.
 
@@ -144,11 +153,13 @@ The ridge regression produced a small increase in r-squared values compared to t
 
 Here, I ran a ridge regression using a range of 0.85 to 1.25
 
+
 Optimal alpha: 1.1026315789473684
 
 Training R-squared score: 0.8258373086089591
 
 Testing R-squared score: 0.8253215556264802
+
 
 The lasso regression created r-squared values that were slightly larger than those for the ridge regression and linear regression, but notably so.
  
