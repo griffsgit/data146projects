@@ -12,3 +12,6 @@
 3. [Project 3](Project3.md)
 
 4. [Project 5, Part 1](Project5pt1.md)
+
+5. [Project 5, Part 2](Project5pt2.md)
+
