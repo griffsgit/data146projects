@@ -46,7 +46,7 @@ In general, the models based on data when wealth classes 2 and 3 were not recode
 
 Plots of K-nearest neighbor testing (weighted and unweighted):
 
-![alt text](part1noweight(2).PNG)
+![alt text](part1noweight (2).PNG)
 
 ![alt text](part1withweight.PNG)
 
